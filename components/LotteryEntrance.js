@@ -109,7 +109,7 @@ export default function LotteryEntrance() {
                     <div>Number Of Players: {numPlayers}</div>
                     <div>recent Winner: {recentWinner}</div>
                     <br />
-                    <div>Let's get started...</div>
+                    <div>Lets get started...</div>
                 </div>
             ) : (
                 <div>No Raffle Address Detected<br/>*Testnet version - Hardhat localhost only*</div>
