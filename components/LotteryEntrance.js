@@ -64,6 +64,7 @@ export default function LotteryEntrance() {
             //try to read raffle entrance fee
             updateUI()
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [isWeb3Enabled])
 
     const handleSuccess = async function (tx) {
